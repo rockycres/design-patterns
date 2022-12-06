@@ -1,0 +1,47 @@
+Factory Design Pattern - > Uses static factory method to create concrete objects based on inputs and return a interface.
+Factory design pattern provides approach to code for interface rather than implementation.
+
+
+Abstract Factory -> Provide an interface for creating families of related  objects without specifying their concrete classes.
+
+
+Builder design pattern is similar to factory method, but instead of just returning a concrete implementation  
+of an object all at once, it builds the object step-by-step.
+Because an object can be built step-by-step, it is the best design pattern to decide 
+what the object will be if you have to adjust its properties one by one by multiple steps of a conditional logic.
+
+
+Prototype  -> If you have a complex object that is meant to be copied often, you can make it cloneable.
+
+
+Flyweight :
+
+To apply flyweight pattern, we need to divide Object property into intrinsic and extrinsic properties.
+ Intrinsic properties make the Object unique 
+whereas extrinsic properties are set by client code and used to perform different operations
+
+
+Adaptor:
+
+You can create an adapter. 
+This is a special object that converts the interface of one object so that another object can understand it.
+
+
+Decorator :
+
+It will give you the ability to easily add functionality to those objects that you can’t modify directly
+
+decorator class acts as a wrapper around the original object. 
+
+
+Facade : 
+
+A facade is a class that provides a simple interface to a complex subsystem which contains lots of moving parts.
+
+Bridge :
+
+Bridge is a structural design pattern that lets you split a large class or a set of closely related classes into
+ two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
+ 
+ 
+ 
